@@ -35,10 +35,15 @@ body {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
+  flex: 1;
 }
 
 #home {
   background: orange;
+
+  /*
+        * To place the element in the right most corner.
+   */
   margin-right: auto;
 }
 
@@ -52,7 +57,9 @@ body {
   /* 
         * To place the element in the left most corner.
    */
-  /* position: absolute;
+  /* 
+  margin-left: auto;
+  position: absolute;
   top: 0.8rem;
   right: 0; */
 }
