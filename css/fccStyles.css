@@ -35,7 +35,7 @@ body {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
-  flex: 1;
+  /* flex: 1; */
 }
 
 #home {
@@ -49,6 +49,7 @@ body {
 
 #search {
   background: lightblue;
+  flex: 2;
 }
 
 #logout {
