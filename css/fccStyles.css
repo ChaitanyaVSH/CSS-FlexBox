@@ -24,7 +24,7 @@ body {
             space-between
         }
    */
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 #home,
@@ -39,6 +39,7 @@ body {
 
 #home {
   background: orange;
+  margin-right: auto;
 }
 
 #search {
@@ -47,7 +48,6 @@ body {
 
 #logout {
   background-color: lightsalmon;
-  margin-left: auto;
 
   /* 
         * To place the element in the left most corner.
