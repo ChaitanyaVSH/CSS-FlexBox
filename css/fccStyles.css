@@ -24,7 +24,7 @@ body {
             space-between
         }
    */
-  justify-content: ;
+  justify-content: flex-start;
 }
 
 #home,
@@ -47,6 +47,7 @@ body {
 
 #logout {
   background-color: lightsalmon;
+  margin-left: auto;
 
   /* 
         * To place the element in the left most corner.
