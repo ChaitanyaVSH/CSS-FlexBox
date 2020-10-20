@@ -45,15 +45,16 @@ body {
         * To place the element in the right most corner.
    */
   margin-right: auto;
+  flex: 1;
 }
 
 #search {
   background: lightblue;
-  flex: 2;
 }
 
 #logout {
   background-color: lightsalmon;
+  flex: 1;
 
   /* 
         * To place the element in the left most corner.
