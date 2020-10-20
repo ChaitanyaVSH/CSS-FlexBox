@@ -3,12 +3,28 @@ body {
   background: #333333;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem 2rem;
 }
 
 .container {
   background: #eaeaea;
   color: black;
   border: 4px solid orange;
+  display: flex;
+
+  /* 
+        * Tutorial: https://youtu.be/-Wlt8NRtOpo?t=279
+        * Positioning elements along main-axis using justify-content.
+        * {
+            flex-start/default
+            flex-end
+            center
+            space-around
+            space-evenly
+            space-between
+        }
+   */
+  justify-content: ;
 }
 
 #home,
@@ -19,7 +35,6 @@ body {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
-  display: inline-block;
 }
 
 #home {
