@@ -24,7 +24,7 @@ body {
             space-between
         }
    */
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 #home,
@@ -44,8 +44,8 @@ body {
   /*
         * To place the element in the right most corner.
    */
-  margin-right: auto;
-  flex: 1;
+  /* margin-right: auto; */
+  /* flex: 1; */
 }
 
 #search {
@@ -54,7 +54,7 @@ body {
 
 #logout {
   background-color: lightsalmon;
-  flex: 1;
+  /* flex: 1; */
 
   /* 
         * To place the element in the left most corner.
