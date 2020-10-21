@@ -45,6 +45,13 @@ img {
   /* flex: 1; */
 }
 
+#home:hover,
+#search:hover,
+#logout:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 #home {
   background: orange;
 
