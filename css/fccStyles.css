@@ -103,8 +103,8 @@ img {
 @media (min-width: 900px) {
   .container {
     display: flex;
-    justify-content: center;
     border: 2px solid white;
+    justify-content: flex-start;
 
     /*
         * Align-Items is used to set/position the elements across the cross axis.
@@ -115,6 +115,10 @@ img {
           3. center
      */
     align-items: center;
+  }
+
+  #logout {
+    align-self: flex-start;
   }
 
   .container > div {
