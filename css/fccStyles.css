@@ -61,6 +61,7 @@ img {
 
 #home {
   background: orange;
+  order: 3;
 
   /*
         * To place the element in the right most corner.
@@ -70,10 +71,12 @@ img {
 }
 
 #search {
+  order: 2;
   background: lightblue;
 }
 
 #logout {
+  order: 1;
   background-color: lightsalmon;
   /* flex: 1; */
 
