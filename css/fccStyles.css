@@ -48,6 +48,7 @@ img {
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
+  width: 300px;
   /* flex: 1; */
 }
 
@@ -103,6 +104,7 @@ img {
 @media (min-width: 900px) {
   .container {
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid white;
     justify-content: flex-start;
 
