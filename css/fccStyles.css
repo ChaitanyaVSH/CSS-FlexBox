@@ -1,4 +1,9 @@
 /* Core Styles */
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: #333333;
   color: white;
@@ -17,7 +22,7 @@ img {
 
 .container {
   color: black;
-  display: block;
+  display: flex;
 
   /* 
         * Tutorial: https://youtu.be/-Wlt8NRtOpo?t=279
@@ -32,6 +37,7 @@ img {
         }
    */
   justify-content: space-around;
+  height: 100%;
 }
 
 #home,
@@ -82,6 +88,7 @@ img {
 
 #section-a {
   margin: 2rem 0;
+  display: none;
 }
 
 .card {
@@ -98,10 +105,20 @@ img {
     display: flex;
     justify-content: flex-start;
     border: 2px solid white;
+
+    /*
+        * Align-Items is used to set/position the elements across the cross axis.
+        * By default it will be off "stretch"
+        * It can be of
+          1. flex-start
+          2. flex-end
+          3. center
+     */
+    align-items: center;
   }
 
   .container > div {
-    flex: 1;
+    /* flex: 1; */
   }
 
   #card-container {
