@@ -1,7 +1,7 @@
 /* Core Styles */
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
@@ -103,11 +103,8 @@ img {
 @media (min-width: 900px) {
   .container {
     display: flex;
-    flex-direction: column;
     border: 2px solid white;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 100%;
+    justify-content: flex-start;
 
     /*
         * Align-Items is used to set/position the elements across the cross axis.
